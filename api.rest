@@ -1,0 +1,33 @@
+GET http://localhost:8000/users
+###
+GET http://localhost:8000/users/jaime
+###
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "username": "juanrolando",
+  "password": "qwerty"
+}
+###
+POST http://localhost:8000/users
+Content-Type: application/json
+###
+PUT http://localhost:8000/users/juanrolando
+Content-Type: application/json
+
+{
+  "username": "felix",
+  "password": "97987897"
+}
+###
+PUT http://localhost:8000/users/felix
+Content-Type: application/json
+###
+DELETE http://localhost:8000/users/felix
+###
+GET http://localhost:8000/productos
+###
+
+
+
