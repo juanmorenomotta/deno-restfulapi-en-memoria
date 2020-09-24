@@ -1,5 +1,7 @@
 GET http://localhost:8000/users
 ###
+GET https://cryptic-lowlands-01766.herokuapp.com//users
+###
 GET http://localhost:8000/users/jaime
 ###
 POST http://localhost:8000/users

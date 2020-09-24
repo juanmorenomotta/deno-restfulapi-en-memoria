@@ -2,7 +2,7 @@
     "$schema": "https://deno.land/x/denon@2.3.3/schema.json",
     "scripts": {
         "start": {
-            "cmd": "deno run --allow-env --allow-net app.ts",
+            "cmd": "deno run --allow-net=:5000 --cached-only app.ts --port=5000",
             "desc": "run my app.ts file"
         }
     }
