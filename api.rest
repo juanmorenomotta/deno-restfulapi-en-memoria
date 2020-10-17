@@ -1,8 +1,8 @@
 GET http://localhost:8000/users
 ###
-GET https://cryptic-lowlands-01766.herokuapp.com//users
-###
 GET http://localhost:8000/users/jaime
+###
+GET http://localhost:8000/users/juan
 ###
 POST http://localhost:8000/users
 Content-Type: application/json
@@ -27,8 +27,6 @@ PUT http://localhost:8000/users/felix
 Content-Type: application/json
 ###
 DELETE http://localhost:8000/users/felix
-###
-GET http://localhost:8000/productos
 ###
 
 

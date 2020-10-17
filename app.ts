@@ -1,6 +1,5 @@
 import { 
   Application, 
-  parse,
 } from "./deps.ts";
 
 import logger from './Middlewares/logger.ts';
@@ -10,9 +9,7 @@ import errorHandler from './Middlewares/errorHandler.ts';
 import { userRouter } from './Routes/UserRouter.ts';
 
 const app = new Application();
-const { args } = Deno;
-const PUERTO_DEFAULT = 8000;
-const puerto = parse(args).port ? Number(parse(args).port ) : PUERTO_DEFAULT;
+const puerto = 8000;
 
 app.use( logger );
 app.use( header );
