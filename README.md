@@ -19,7 +19,9 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Este codigo es parte del curso RESTful API en Memoria con Deno y Oak Framework publicado en Udemy.com.
+Este codigo es parte del curso RESTful API en Memoria con Deno y Oak Framework publicado en Udemy.com. El curso es gratuito.
+
+https://www.udemy.com/course/restful-api-en-memoria-con-deno-y-oak/
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
